@@ -1,6 +1,6 @@
 const { Schema, model, Types } = require('mongoose');
 const dayjs = require('dayjs');
-const Thought = model('Thought', thoughtSchema);
+const Thought = model('thought', thoughtSchema);
 
 const thoughtSchema = new Schema (
     {
